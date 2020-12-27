@@ -27,7 +27,7 @@ class MainViewModel(
             }else{
                 LoginError
             }
-            withContext(Dispatchers.IO){
+            withContext(Dispatchers.Main){
                 loginLiveData.value = loginStatus
             }
 
