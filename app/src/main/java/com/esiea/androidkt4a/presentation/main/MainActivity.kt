@@ -1,5 +1,6 @@
 package com.esiea.androidkt4a.presentation.main
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.lifecycle.Observer
@@ -33,7 +34,10 @@ class MainActivity : AppCompatActivity() {
             }
         })
         login_button.setOnClickListener{
-            mainViewModel.onClickedLogin(login_edit.text.toString().trim(), password_edit.text.toString())
+            mainViewModel.onClickedLogin(login_edit.text.toString().trim())
+        }
+        create_account_button.setOnClickListener{
+            startActivity(Intent(this, Create::class.java))
         }
     }
 }
