@@ -12,7 +12,7 @@ import org.koin.android.ext.koin.androidContext
 import org.koin.dsl.module
 
 val presentationModule = module {
-    factory { MainViewModel(get()) }
+    factory { MainViewModel(get(), get()) }
 }
 
 val domainModule = module {
