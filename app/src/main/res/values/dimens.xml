@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_default" />
+    <dimen name="line_height" />
+    <dimen name="margin_small" />
+</resources>

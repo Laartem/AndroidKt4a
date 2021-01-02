@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
             when(it){
                 is LoginSuccess -> {
                     Toast.makeText(applicationContext, "Connection success !", Toast.LENGTH_SHORT).show()
-                    //startActivity(Intent(this, ApiList::class.java))
+                    startActivity(Intent(this, APIActivity::class.java))
                 }
                 LoginError -> {
                     MaterialAlertDialogBuilder(this)
