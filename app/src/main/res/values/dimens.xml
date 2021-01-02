@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="padding_default" />
-    <dimen name="line_height" />
-    <dimen name="margin_small" />
+    <dimen name="padding_default">16dp</dimen>
+    <dimen name="margin_small">5dp</dimen>
+    <dimen name="line_height">1dp</dimen>
 </resources>

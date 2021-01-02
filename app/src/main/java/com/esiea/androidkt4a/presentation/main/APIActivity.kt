@@ -22,7 +22,7 @@ class APIActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_a_p_i)
 
         mApiService = RestClient.client.create(APIService::class.java)
 
